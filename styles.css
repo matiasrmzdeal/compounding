@@ -3,9 +3,47 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 20px;
+}
+
+main {
     max-width: 800px;
     margin: 0 auto;
+    padding: 20px;
 }
+
+/* editing the navigation bar */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+/* editing the header */
 
 header {
     background-color:#f6f6f6;
@@ -13,17 +51,23 @@ header {
     text-align: center;
 }
 
+/* post styles */
+
 .blog_post {
     border-bottom: 1px solid #ccc;
-    padding: 1rem 0;
+    padding: 20px 0;
     text-align: center;
 }
 
 .blog_post h2 {
-    margin-bottom: 0.5rem;
+    margin-bottom: 10px;
 }
 
 .blog_post .date {
     color: #666;
     font-size: 0.8rem;
+}
+
+article.blog_post {
+    text-align: center;
 }
