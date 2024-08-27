@@ -71,3 +71,15 @@ header {
 article.blog_post {
     text-align: center;
 }
+
+.about-section {
+    margin-bottom: 30px;
+}
+
+.about-section h2 {
+    color: #333
+}
+
+.about-section p {
+    line-height: 1.6;
+}
