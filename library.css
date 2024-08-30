@@ -1,0 +1,22 @@
+.book-year {
+    margin-bottom: 20px;
+}
+
+.book-year h2 {
+    border-bottom: 1px solid #ccc;
+}
+
+.book-entry {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.book-entry h3 {
+    margin-bottom: 5px;
+}
+
+.book-entry.favorite {
+    color: #0000ff;
+}
+
